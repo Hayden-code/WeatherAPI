@@ -1,0 +1,106 @@
+* { 
+    padding: 0;
+    margin: 0; 
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+p {
+    font-weight: lighter;
+}
+li {
+    list-style-type: none;
+    background-color: rgb(187, 187, 187);
+    padding: 5px;
+}
+ul {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    font-size: larger;
+}
+ul:hover {
+    background-color: rgba(255, 99, 71, 0.671);
+}
+
+#weatherApi {
+    display: flex;
+    height: 100%;
+}
+
+#sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(204, 204, 204, 0.589);
+    padding: 10px;
+    border-right: thin solid black;
+}
+
+#searchContainer {
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    height: fit-content;
+}
+#searchBar {
+    font-size: 18px;
+    width: 70%;
+    border-radius: 5px;
+}
+#searchBtn {
+    height: 20px;
+    border: thin solid steelblue;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+
+#forcast {
+    width: 100%;
+    padding: 10px;
+}
+
+#dayForcast {
+    padding: 15px;
+    border: thin solid rgb(58, 57, 57);
+    border-radius: 10px;
+    margin: 5px;
+    width: 50%;
+    height: fit-content;
+}
+
+#fiveDayForcast {
+    width: 90%;
+    padding: 15px;
+    border: thin solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#fiveDayForcastBlocks {
+    display:inline-flex;
+}
+.block {
+    padding: 5px;
+    border: thin solid black;
+    border-radius: 2px;
+    margin: 5px;
+}
